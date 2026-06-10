@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# данные не коммитим — модель учится локально, в репозиторий едет только готовый models/model.pkl
+data/
+*.parquet
+
+# приватный ключ деплоя — НИКОГДА в репозиторий
+deploy_key
+deploy_key.pub
+.env
+
+.DS_Store
